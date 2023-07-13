@@ -1,0 +1,9 @@
+baseten/llm/WizardLM:
+  class: evals.completion_fns.baseten_llm:BasetenCompletionFn
+  args:
+    llm: w67yzgq
+
+baseten/llm/Falcon7B:
+  class: evals.completion_fns.baseten_llm:BasetenCompletionFn
+  args:
+    llm: 32pl89q
